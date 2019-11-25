@@ -1,6 +1,5 @@
 package com.atguigu.zk.distributelock;
 
-import com.sun.org.apache.bcel.internal.generic.NEW;
 import org.I0Itec.zkclient.ZkClient;
 
 import java.util.concurrent.CountDownLatch;

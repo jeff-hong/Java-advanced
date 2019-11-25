@@ -1,7 +1,5 @@
 package com.atguigu.threadcase;
 
-import com.sun.org.apache.bcel.internal.generic.NEW;
-
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 
@@ -86,5 +84,12 @@ public class SaleTicket {
                 }
             }
         }, "C").start();*/
+
+        new Thread(new Runnable() {
+            @Override
+            public void run() {
+
+            }
+        });
     }
 }
